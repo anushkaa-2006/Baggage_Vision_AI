@@ -8,8 +8,8 @@ from preprocessing.image_preprocessing import preprocess_image
 from inference.clip_matcher import CLIPMatcher
 from utils.text_processing import parse_manifest
 
-from anomaly_detection.feature_extractor import extract_feature
-from anomaly_detection.anomaly_detector import AnomalyDetector
+from frontend.models.anomaly_detection.feature_extractor import extract_feature
+from frontend.models.anomaly_detection.anomaly_detector import AnomalyDetector
 
 
 class CargoPipeline:
