@@ -17,7 +17,7 @@ st.set_page_config(
     page_title="Cargo Risk Intelligence",
     layout="wide"
 )
-
+6
 # ---------------- STYLING ----------------
 st.markdown("""
 <style>
