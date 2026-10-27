@@ -1,2 +1,13 @@
-models/*.pt
-*.pt
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+temp_processed.jpg
+temp.jpg
+*.db
+*.sqlite
+*.sqlite3
+
+frontend/models/best.pt

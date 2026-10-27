@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 
 class ObjectDetector:
-    def __init__(self, model_path="models/best.pt"):
+    def __init__(self, model_path="frontend/models/best.pt"):
         self.model = YOLO(model_path)
 
     def detect(self, image_path):
